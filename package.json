@@ -21,9 +21,8 @@
     "lib"
   ],
   "scripts": {
-    "test": "eslint . && nyc --reporter=html --reporter=text mocha test/*.test.js",
-    "integration": "eslint . && mocha test/*.integration.js",
-    "lint": "eslint ."
+    "start": "forever start index.js",
+    "stop": "forever stopall"
   },
   "dependencies": {
     "async-limiter": "~1.0.0"
