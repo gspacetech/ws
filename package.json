@@ -21,8 +21,8 @@
     "lib"
   ],
   "scripts": {
-    "start": "forever start index.js",
-    "stop": "forever stopall"
+    "start": "start index.js",
+    "stop": "stopall"
   },
   "dependencies": {
     "async-limiter": "~1.0.0"
